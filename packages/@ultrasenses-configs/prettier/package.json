@@ -1,0 +1,19 @@
+{
+  "name": "@ultrasenses-configs/prettier",
+  "version": "1.0.0",
+  "keywords": [
+    "prettier",
+    "prettier config",
+    "prettierconfig"
+  ],
+  "description": "Ultrasenses eslint config",
+  "main": "index.js",
+  "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "import-sort-parser-typescript": "^6.0.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-import-sort": "^0.0.6",
+    "prettier-plugin-pkg": "^0.8.0"
+  }
+}

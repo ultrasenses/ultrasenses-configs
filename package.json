@@ -1,0 +1,27 @@
+{
+  "name": "ultrasenses-utils",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultrasenses/ultrasenses-utils.git"
+  },
+  "scripts": {
+    "lerna:build": "lerna run build",
+    "build": "yarn run lerna:build",
+    "eslint:check": "eslint . --ignore-path .gitignore",
+    "new-version": "lerna version --conventional-commits --no-push --no-git-tag-version"
+  },
+  "devDependencies": {
+    "@ultrasenses-configs/typescript": "^1.0.0",
+    "@ultrasenses-configs/prettier": "^1.0.0",
+    "@ultrasenses-configs/eslint": "^1.0.0",
+    "lerna": "^3.22.1",
+    "eslint": "^7.20.0"
+  },
+  "workspaces": [
+    "packages/**/*"
+  ]
+}
