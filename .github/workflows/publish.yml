@@ -1,41 +1,41 @@
-name: publish
+name: 🚀 Publish
 on:
   # When Release Pull Request is merged
   pull_request:
     branches:
-      - master
+      - main
     types: [closed]
 
 env:
   CI: true
 jobs:
   publish:
-    name: Publish
+    name: 🚀 Publish
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: ✔️ Checkout
         uses: actions/checkout@v2
-      - name: Setup Node ${{ matrix.node_version }}
+      - name: ⚒️ Setup Node ${{ matrix.node_version }}
         uses: actions/setup-node@v1
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
-      - name: Git Identity
+      - name: 🛂 Git Identity
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Install
+      - name: 🔨 Install
         run: yarn install
       # Define ${CURRENT_VERSION}
-      - name: Set Current Version
+      - name: 📑 Set Current Version
         shell: bash -ex {0}
         run: |
           CURRENT_VERSION=$(node -p 'require("./lerna.json").version')
           echo "CURRENT_VERSION=${CURRENT_VERSION}" >> $GITHUB_ENV
-      - name: Tag Check
+      - name: 🏷️ Tag Check
         id: tag_check
         shell: bash -ex {0}
         run: |
@@ -49,7 +49,7 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create Git Tag
+      - name: 🏷️ Create Git Tag
         if: steps.tag_check.outputs.exists_tag == 'false'
         uses: azu/action-package-version-to-git-tag@v1
         with:
@@ -58,7 +58,7 @@ jobs:
           github_repo: ${{ github.repository }}
           git_commit_sha: ${{ github.sha }}
           git_tag_prefix: "v"
-      - name: Create Release
+      - name: 🔖 Create Release
         id: create_release
         if: steps.tag_check.outputs.exists_tag == 'false' && github.event.pull_request.merged == true
         uses: actions/create-release@v1
@@ -72,7 +72,7 @@ jobs:
             ${{ github.event.pull_request.body }}
           draft: false
           prerelease: false
-      - name: Publish
+      - name: 🚀 Publish
         if: steps.tag_check.outputs.exists_tag == 'false'
         run: |
           yarn run lerna:publish
