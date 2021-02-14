@@ -11,14 +11,12 @@
   "scripts": {
     "build": "yarn run lerna:build",
     "lerna:build": "lerna run build",
-    "lerna:publish": "lerna bootsrap && lerna run build && lerna publish —conventional-commits —yes",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna bootsrap && lerna run build && lerna publish from-package --conventional-commits --yes",
     "eslint:check": "eslint . --ignore-path .gitignore",
     "update:version": "lerna version --conventional-commits --no-push"
   },
   "devDependencies": {
-    "@ultrasenses-configs/typescript": "^1.0.0",
-    "@ultrasenses-configs/prettier": "^1.0.0",
-    "@ultrasenses-configs/eslint": "^1.0.0",
     "lerna": "^3.22.1",
     "eslint": "^7.20.0"
   },
