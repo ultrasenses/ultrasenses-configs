@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "private": true,
+  "description": "Ultrasenses utils",
   "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "repository": {
     "type": "git",
