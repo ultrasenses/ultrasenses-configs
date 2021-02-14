@@ -1,15 +1,24 @@
 {
   "name": "@ultrasenses-configs/prettier",
   "version": "1.0.0",
+  "description": "Ultrasenses eslint config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultrasenses/ultrasenses-utils.git",
+    "directory": "packages/@ultrasenses-configs/prettier"
+  },
+  "homepage": "https://github.com/ultrasenses/ultrasenses-utils#readme",
+  "bugs": {
+    "url": "https://github.com/ultrasenses/ultrasenses-utils/issues"
+  },
+  "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
+  "license": "Apache-2.0",
+  "main": "index.js",
   "keywords": [
     "prettier",
     "prettier config",
     "prettierconfig"
   ],
-  "description": "Ultrasenses eslint config",
-  "main": "index.js",
-  "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
-  "license": "Apache-2.0",
   "dependencies": {
     "import-sort-parser-typescript": "^6.0.0",
     "prettier": "^2.2.1",

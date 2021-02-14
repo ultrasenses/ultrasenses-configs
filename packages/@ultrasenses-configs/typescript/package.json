@@ -1,6 +1,17 @@
 {
   "name": "@ultrasenses-configs/typescript",
   "version": "1.0.0",
+  "description": "Ultrasenses ts-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultrasenses/ultrasenses-utils.git",
+    "directory": "packages/@ultrasenses-configs/typescript"
+  },
+  "homepage": "https://github.com/ultrasenses/ultrasenses-utils#readme",
+  "bugs": {
+    "url": "https://github.com/ultrasenses/ultrasenses-utils/issues"
+  },
+  "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "license": "Apache-2.0",
   "keywords": [
     "typescript",
@@ -9,8 +20,6 @@
     "ts-config",
     "tsconfig"
   ],
-  "description": "Ultrasenses ts-configs",
-  "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "dependencies": {
     "@types/jest": "^26.0.20",
     "@types/react": "^17.0.1",
