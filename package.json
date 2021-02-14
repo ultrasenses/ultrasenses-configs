@@ -13,7 +13,7 @@
     "build": "yarn run lerna:build",
     "lerna:build": "lerna run build",
     "lerna:bootstrap": "lerna bootstrap",
-    "lerna:publish": "lerna bootsrap && lerna run build && lerna publish from-package --conventional-commits --yes",
+    "lerna:publish": "lerna bootstrap && lerna run build && lerna publish from-package --conventional-commits --yes",
     "eslint:check": "eslint . --ignore-path .gitignore",
     "update:version": "lerna version --conventional-commits --no-git-tag-version"
   },
