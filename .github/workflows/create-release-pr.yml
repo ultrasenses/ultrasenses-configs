@@ -24,8 +24,8 @@ jobs:
         run: yarn install
       - name: 🛂 Git Identity
         run: |
-          git config --global user.name 'I-Atlas'
-          git config --global user.email '54947380+I-Atlas@users.noreply.github.com'
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email '${{ github.actor }}@users.noreply.github.com'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 📑 Update version commit
