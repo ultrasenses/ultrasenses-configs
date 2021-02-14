@@ -27,7 +27,6 @@ storybook-static/
 
 # remove ts build files
 **/*.d.ts
-**/*.js
 other/*
 !.storybook/*
 
