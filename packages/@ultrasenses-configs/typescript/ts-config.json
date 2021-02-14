@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "checkJs": false,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "esnext"],
+    "types": ["react", "react-dom", "jest", "webpack-env"]
+  },
+  "exclude": [".idea", "dist", "node_modules", "**/*.spec.ts"]
+}

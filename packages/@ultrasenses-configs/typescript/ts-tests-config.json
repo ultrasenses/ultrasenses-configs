@@ -1,0 +1,7 @@
+{
+  "extends": "./ts-config.json",
+  "compilerOptions": {
+    "target": "ES6",
+    "allowJs": true
+  }
+}
