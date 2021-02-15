@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
+          scope: "@ultrasenses"
       - name: 🔗 Set up NPM authentication
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
         env:
