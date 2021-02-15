@@ -1,7 +1,7 @@
 {
   "name": "@ultrasenses-configs/prettier",
   "version": "1.0.0",
-  "description": "Ultrasenses eslint config",
+  "description": "Ultrasenses prettier config",
   "repository": {
     "type": "git",
     "url": "https://github.com/ultrasenses/ultrasenses-utils.git",
@@ -24,5 +24,8 @@
     "prettier": "^2.2.1",
     "prettier-plugin-import-sort": "^0.0.6",
     "prettier-plugin-pkg": "^0.8.0"
+  },
+  "publishConfig": {
+    "@ultrasenses:registry": "https://npm.pkg.github.com"
   }
 }
