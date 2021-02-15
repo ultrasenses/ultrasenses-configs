@@ -17,14 +17,11 @@
     "eslint:check": "eslint . --ignore-path .gitignore",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:build": "lerna run build",
-    "lerna:publish": "lerna bootstrap && lerna run build && lerna publish from-package --conventional-commits --yes",
-    "update:version": "lerna version --conventional-commits --no-git-tag-version"
+    "lerna:publish": "lerna publish from-package --yes",
+    "lerna:version": "lerna version --yes --conventional-commits --create-release github"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
     "lerna": "^3.22.1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
