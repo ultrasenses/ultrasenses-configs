@@ -23,12 +23,12 @@ jobs:
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
-      - name: 📡 Ensure Access
-        run: npm whoami --registry https://npm.pkg.github.com/
       - name: 🔗 Set up NPM authentication
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 📡 Ensure Access
+        run: npm whoami --registry https://npm.pkg.github.com/
       - name: 🛂 Git Identity
         run: |
           git config --global user.name 'github-actions[bot]'
