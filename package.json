@@ -21,7 +21,7 @@
     "eslint:check": "eslint . --ignore-path .gitignore",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:build": "lerna run build",
-    "lerna:publish": "lerna publish from-package -conventional-commits --yes"
+    "lerna:publish": "lerna publish from-package --conventional-commits --yes"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
