@@ -39,6 +39,7 @@
     "prettier": "^2.2.1"
   },
   "publishConfig": {
+    "access": "public",
     "@ultrasenses:registry": "https://npm.pkg.github.com"
   }
 }

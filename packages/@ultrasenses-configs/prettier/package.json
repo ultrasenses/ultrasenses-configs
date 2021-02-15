@@ -26,6 +26,7 @@
     "prettier-plugin-pkg": "^0.8.0"
   },
   "publishConfig": {
+    "access": "public",
     "@ultrasenses:registry": "https://npm.pkg.github.com"
   }
 }

@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/ultrasenses/ultrasenses-utils.git"
   },
+  "homepage": "https://github.com/ultrasenses/ultrasenses-utils#readme",
+  "bugs": {
+    "url": "https://github.com/ultrasenses/ultrasenses-utils/issues"
+  },
   "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "license": "Apache-2.0",
   "private": true,
@@ -18,7 +22,7 @@
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:build": "lerna run build",
     "lerna:publish": "lerna publish from-package --yes",
-    "lerna:version": "lerna version --yes --conventional-commits --create-release github"
+    "lerna:version": "lerna version --conventional-commits --yes"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
