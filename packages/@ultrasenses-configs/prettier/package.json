@@ -27,6 +27,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "@ultrasenses:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@ultrasenses"
   }
 }
