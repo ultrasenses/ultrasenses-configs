@@ -1,14 +1,14 @@
 {
-  "name": "ultrasenses-configs",
+  "name": "ultrasenses-utils",
   "version": "1.0.0",
-  "description": "🔱 Ultrasenses configs",
+  "description": "🔱 Ultrasenses utils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ultrasenses/ultrasenses-configs.git"
+    "url": "https://github.com/ultrasenses/ultrasenses-utils.git"
   },
-  "homepage": "https://github.com/ultrasenses/ultrasenses-configs#readme",
+  "homepage": "https://github.com/ultrasenses/ultrasenses-utils#readme",
   "bugs": {
-    "url": "https://github.com/ultrasenses/ultrasenses-configs/issues"
+    "url": "https://github.com/ultrasenses/ultrasenses-utils/issues"
   },
   "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "license": "Apache-2.0",

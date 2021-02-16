@@ -1,5 +1,5 @@
 {
-  "extends": "@ultrasenses-configs/typescript/ts-config.json",
+  "extends": "@ultrasenses/configs-typescript/ts-config.json",
   "compilerOptions": {
     "declaration": true,
     "target": "es6"

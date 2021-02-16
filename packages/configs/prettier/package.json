@@ -1,15 +1,15 @@
 {
-  "name": "@ultrasenses-configs/prettier",
+  "name": "@ultrasenses/configs-prettier",
   "version": "1.0.0",
   "description": "Ultrasenses prettier config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ultrasenses/ultrasenses-configs.git",
-    "directory": "packages/@ultrasenses-configs/prettier"
+    "url": "https://github.com/ultrasenses/ultrasenses-utils.git",
+    "directory": "packages/configs/prettier"
   },
-  "homepage": "https://github.com/ultrasenses/ultrasenses-configs#readme",
+  "homepage": "https://github.com/ultrasenses/ultrasenses-utils#readme",
   "bugs": {
-    "url": "https://github.com/ultrasenses/ultrasenses-configs/issues"
+    "url": "https://github.com/ultrasenses/ultrasenses-utils/issues"
   },
   "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "license": "Apache-2.0",
@@ -17,7 +17,8 @@
   "keywords": [
     "prettier",
     "prettier config",
-    "prettierconfig"
+    "prettierconfig",
+    "ultrasenses"
   ],
   "dependencies": {
     "import-sort-parser-typescript": "^6.0.0",

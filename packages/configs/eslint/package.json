@@ -1,15 +1,15 @@
 {
-  "name": "@ultrasenses-configs/eslint",
+  "name": "@ultrasenses/configs-eslint",
   "version": "1.0.0",
   "description": "Ultrasenses eslint config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ultrasenses/ultrasenses-configs.git",
-    "directory": "packages/@ultrasenses-configs/eslint"
+    "url": "https://github.com/ultrasenses/ultrasenses-utils.git",
+    "directory": "packages/configs/eslint"
   },
-  "homepage": "https://github.com/ultrasenses/ultrasenses-configs#readme",
+  "homepage": "https://github.com/ultrasenses/ultrasenses-utils#readme",
   "bugs": {
-    "url": "https://github.com/ultrasenses/ultrasenses-configs/issues"
+    "url": "https://github.com/ultrasenses/ultrasenses-utils/issues"
   },
   "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "license": "Apache-2.0",
@@ -19,7 +19,8 @@
     "lint",
     "linter",
     "eslint config",
-    "eslintconfig"
+    "eslintconfig",
+    "ultrasenses"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",

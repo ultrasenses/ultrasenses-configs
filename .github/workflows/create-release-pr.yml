@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
+          scope: "@ultrasenses"
       - name: 🔨 Install
         run: yarn install
       - name: 🛂 Git Identity

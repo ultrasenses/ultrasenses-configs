@@ -1,6 +1,6 @@
-# @ultrasenses-configs/prettier
+# @ultrasenses/configs-typescript
 
-## Ultrasenses prettier config
+## Ultrasenses ts-configs
 
 ## 📄 License
 
