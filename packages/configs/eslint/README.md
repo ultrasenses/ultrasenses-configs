@@ -1,4 +1,4 @@
-# @ultrasenses-configs/eslint
+# @ultrasenses/configs-eslint
 
 ## Ultrasenses eslint config
 
