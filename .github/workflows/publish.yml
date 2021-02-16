@@ -31,7 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 🔨 Install
         run: yarn install
-      # Define ${CURRENT_VERSION}
       - name: 📑 Set Current Version
         shell: bash -ex {0}
         run: |
