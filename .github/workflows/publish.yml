@@ -19,8 +19,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: "https://npm.pkg.github.com"
-          scope: "@ultrasenses"
+          registry-url: "https://registry.npmjs.org/"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 🛂 Git Identity
@@ -76,7 +75,7 @@ jobs:
           draft: false
           prerelease: false
       - name: 🔗 Set up NPM authentication
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_ACCESS_TOKEN }}" >> ~/.npmrc
       - name: 🚀 Publish
         if: steps.tag_check.outputs.exists_tag == 'false'
         run: |
@@ -85,4 +84,4 @@ jobs:
           yarn run lerna:publish
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
