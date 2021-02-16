@@ -8,7 +8,6 @@ lerna-debug.log*
 
 # Yarn
 yarn.lock
-.yarnrc
 
 # idea config
 .idea/
