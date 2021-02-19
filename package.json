@@ -24,10 +24,16 @@
     "lerna:publish": "lerna publish from-package --conventional-commits --yes"
   },
   "devDependencies": {
-    "@ultrasenses/configs-typescript": "^1.0.0",
-    "@ultrasenses/configs-prettier": "^1.0.0",
     "@ultrasenses/configs-eslint": "^1.0.0",
+    "@ultrasenses/configs-prettier": "^1.0.0",
+    "@ultrasenses/configs-typescript": "^1.0.0",
     "eslint": "^7.20.0",
     "lerna": "^3.22.1"
-  }
+  },
+  "eslintConfig": {
+    "extends": [
+      "@ultrasenses/configs-eslint"
+    ]
+  },
+  "prettier": "@ultrasenses/configs-prettier"
 }
