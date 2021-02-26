@@ -1,6 +1,24 @@
 # @ultrasenses/configs-typescript
 
-## Ultrasenses ts-configs
+Ultrasenses ts-configs
+
+## 📦 Install
+
+```
+npm i @ultrasenses/configs-typescript --save-dev
+```
+
+```
+yarn add @ultrasenses/configs-typescript --dev
+```
+
+## 🔨 Usage
+
+### in tsconfig.json
+
+```json
+"extends": "@ultrasenses/configs-typescript/ts-config.json"
+```
 
 ## 📄 License
 

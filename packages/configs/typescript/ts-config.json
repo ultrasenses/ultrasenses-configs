@@ -16,7 +16,7 @@
     "declaration": false,
     "allowSyntheticDefaultImports": true,
     "lib": ["dom", "esnext"],
-    "types": ["react", "react-dom", "jest", "webpack-env"]
+    "types": ["react", "react-dom", "jest"]
   },
   "exclude": [".idea", "dist", "node_modules", "**/*.spec.ts"]
 }
