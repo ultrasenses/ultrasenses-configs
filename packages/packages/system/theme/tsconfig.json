@@ -1,0 +1,9 @@
+{
+  "extends": "@ultrasenses/configs-typescript/ts-config.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "removeComments": false
+  },
+  "include": ["./src"],
+  "exclude": ["**/*.stories.*"]
+}

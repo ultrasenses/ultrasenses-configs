@@ -21,7 +21,8 @@
     "eslint:check": "eslint . --ignore-path .gitignore",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:build": "lerna run build",
-    "lerna:publish": "lerna publish from-package --conventional-commits --yes"
+    "lerna:publish": "lerna publish from-package --conventional-commits --yes",
+    "lerna:version": "lerna version --conventional-commits --no-push --no-git-tag-version"
   },
   "devDependencies": {
     "@ultrasenses/configs-eslint": "^1.0.0",

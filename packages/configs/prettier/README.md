@@ -1,6 +1,24 @@
 # @ultrasenses/configs-prettier
 
-## Ultrasenses prettier config
+Ultrasenses prettier config
+
+## 📦 Install
+
+```
+npm i @ultrasenses/configs-prettier --save-dev
+```
+
+```
+yarn add @ultrasenses/configs-prettier --dev
+```
+
+## 🔨 Usage
+
+### in package.json
+
+```json
+"prettier": "@ultrasenses/configs-prettier/main"
+```
 
 ## 📄 License
 

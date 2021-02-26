@@ -1,6 +1,28 @@
 # @ultrasenses/configs-eslint
 
-## Ultrasenses eslint config
+Ultrasenses eslint config
+
+## 📦 Install
+
+```
+npm i @ultrasenses/configs-eslint --save-dev
+```
+
+```
+yarn add @ultrasenses/configs-eslint --dev
+```
+
+## 🔨 Usage
+
+### in package.json
+
+```json
+"eslintConfig": {
+  "extends": [
+    "@ultrasenses/configs-eslint/main"
+  ]
+}
+```
 
 ## 📄 License
 

@@ -1,0 +1,6 @@
+# ignore all
+*
+
+# include dist
+!dist/**/*
+!lib/**/*
