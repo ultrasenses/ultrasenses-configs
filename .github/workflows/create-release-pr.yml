@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: "https://registry.npmjs.org/"
+          registry-url: 'https://registry.npmjs.org/'
       - name: 🔨 Install
         run: yarn install
       - name: 🛂 Git Identity
@@ -43,10 +43,10 @@ jobs:
         uses: peter-evans/create-pull-request@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update v${{ steps.changelog.outputs.version }}"
+          commit-message: 'Update v${{ steps.changelog.outputs.version }}'
           committer: GitHub <noreply@github.com>
-          author: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
-          title: "v${{ steps.changelog.outputs.version }}"
+          author: '${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>'
+          title: 'v${{ steps.changelog.outputs.version }}'
           body: |
             ## v${{ steps.changelog.outputs.version }}
             ### Breaking Changes
@@ -55,8 +55,8 @@ jobs:
             - [ ] TODO
             ### Bug Fixes
             - [ ] TODO
-          labels: "Type: Release"
-          branch: "release/next"
+          labels: 'Type: Release'
+          branch: 'release/next'
           request-to-parent: false
       - name: ✔️ Check outputs
         run: |
