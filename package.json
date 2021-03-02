@@ -25,16 +25,16 @@
     "lerna:version": "lerna version --conventional-commits --no-push --no-git-tag-version"
   },
   "devDependencies": {
-    "@ultrasenses/configs-eslint": "^1.0.0",
-    "@ultrasenses/configs-prettier": "^1.0.0",
-    "@ultrasenses/configs-typescript": "^1.0.0",
+    "@ultrasenses/configs-eslint": "^1.0.1",
+    "@ultrasenses/configs-prettier": "^1.0.1",
+    "@ultrasenses/configs-typescript": "^1.0.1",
     "eslint": "^7.20.0",
     "lerna": "^3.22.1"
   },
   "eslintConfig": {
     "extends": [
-      "@ultrasenses/configs-eslint"
+      "@ultrasenses/configs-eslint/main"
     ]
   },
-  "prettier": "@ultrasenses/configs-prettier"
+  "prettier": "@ultrasenses/configs-prettier/main"
 }
