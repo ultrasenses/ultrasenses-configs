@@ -1,8 +1,8 @@
 # @ultrasenses/configs-typescript
 
-Ultrasenses ts-configs
+Ultrasenses typescript configs
 
-## 📦 Install
+## 🛠️ Installation
 
 ```
 npm i @ultrasenses/configs-typescript --save-dev
@@ -12,7 +12,7 @@ npm i @ultrasenses/configs-typescript --save-dev
 yarn add @ultrasenses/configs-typescript --dev
 ```
 
-## 🔨 Usage
+## 💻 Usage
 
 ### in tsconfig.json
 
@@ -20,6 +20,6 @@ yarn add @ultrasenses/configs-typescript --dev
 "extends": "@ultrasenses/configs-typescript/ts-config.json"
 ```
 
-## 📄 License
+## 📑 License
 
-The project is licensed under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+The project is licensed under the [Apache license 2.0](https://github.com/ultrasenses/ultrasenses-utils/blob/main/LICENSE).

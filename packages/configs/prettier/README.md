@@ -2,7 +2,7 @@
 
 Ultrasenses prettier config
 
-## 📦 Install
+## 🛠️ Installation
 
 ```
 npm i @ultrasenses/configs-prettier --save-dev
@@ -12,7 +12,7 @@ npm i @ultrasenses/configs-prettier --save-dev
 yarn add @ultrasenses/configs-prettier --dev
 ```
 
-## 🔨 Usage
+## 💻 Usage
 
 ### in package.json
 
@@ -20,6 +20,6 @@ yarn add @ultrasenses/configs-prettier --dev
 "prettier": "@ultrasenses/configs-prettier/main"
 ```
 
-## 📄 License
+## 📑 License
 
-The project is licensed under the [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+The project is licensed under the [Apache license 2.0](https://github.com/ultrasenses/ultrasenses-utils/blob/main/LICENSE).

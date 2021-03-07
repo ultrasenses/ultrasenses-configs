@@ -1,7 +1,7 @@
 {
   "name": "@ultrasenses/configs-typescript",
-  "version": "1.0.1",
-  "description": "Ultrasenses ts-configs",
+  "version": "1.0.2",
+  "description": "Ultrasenses typescript configs",
   "repository": {
     "type": "git",
     "url": "https://github.com/ultrasenses/ultrasenses-utils.git",
@@ -25,7 +25,7 @@
     "@types/jest": "^26.0.20",
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.1",
-    "typescript": "^4.1.5"
+    "typescript": "^4.2.3"
   },
   "publishConfig": {
     "access": "public",

@@ -5,6 +5,12 @@
 
 Custom configs and tools.
 
-## 📄 License
+## 📦 Packages
+
+- [@ultrasenses/configs-eslint](https://www.npmjs.com/package/@ultrasenses/configs-eslint)
+- [@ultrasenses/configs-prettier](https://www.npmjs.com/package/@ultrasenses/configs-prettier)
+- [@ultrasenses/configs-typescript](https://www.npmjs.com/package/@ultrasenses/configs-typescript)
+
+## 📑 License
 
 The project is licensed under the [Apache license 2.0](https://github.com/ultrasenses/ultrasenses-utils/blob/main/LICENSE).
