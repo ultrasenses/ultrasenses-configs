@@ -1,6 +1,6 @@
 {
   "name": "@ultrasenses/configs-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ultrasenses eslint config",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "author": "Ultrasenses <contact.ultrasenses@gmail.com>",
   "license": "Apache-2.0",
-  "main": "index.js",
+  "main": "main.js",
   "keywords": [
     "eslint",
     "lint",
